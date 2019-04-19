@@ -10,12 +10,12 @@
     <form autocomplete="on" action="https://formspree.io/yulikdrummer@gmail.com" method="POST">
     
   
-    First name*   <input type="text"  placeholder="Your first name" required > <br>
-       Last name*   <input type="text"  placeholder="Your last name" required > <br>
-    Birthday* <input type="date" name="birthday" required> <br>
-    Gender* <input type="radio" name="gender" value="female" checked> Female
-    <input type="radio" name="gender" value="Male"> Male <br>
-    Country* <input list="country" name="country"  placeholder="Enter your country" required /><br>
+   <label> First name*   <input type="text"  placeholder="Your first name" required > <br></label>
+    <label>Last name*   <input type="text"  placeholder="Your last name" required > <br></label>
+ <label>   Birthday* <input type="date" name="birthday" required> <br></label>
+ <label>   Gender* <input type="radio" name="gender" value="female" checked> Female</label>
+   <label> <input type="radio" name="gender" value="Male"> Male <br></label>
+   <label> Country* <input list="country" name="country"  placeholder="Enter your country" required /><br></label>
     <datalist id="country">
         <option value="Afghanistan" >
         <option value="Albania" >
@@ -257,9 +257,9 @@
         <option value="Zambia" >
         <option value="Zimbabwe" >
     </datalist> <br>
-      E-mail* <input type="email" name="myEmail" pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}" required> <br>
-    Your car* <input type="text" required> <br>
-    Address* <input type="text" class="textinput" required> <br>
+    <label>  E-mail* <input type="email" name="myEmail" pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}" required> <br></label>
+ <label>   Your car* <input type="text" required> <br></label>
+   <label> Address* <input type="text" class="textinput" required> <br></label>
     Notes <textarea name="notes"></textarea>
     <input type="submit" value="Send">       
     
